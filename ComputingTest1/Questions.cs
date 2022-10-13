@@ -15,7 +15,7 @@ namespace ComputingTest1 // Note: actual namespace depends on the project name.
 
             int gcf = GCF(num1, num2);
             Console.WriteLine("{0} is GCF of {1} and {2}", gcf, num1, num2);
-                     
+
         }
 
         public static string IntDivide(double num)
@@ -58,7 +58,8 @@ namespace ComputingTest1 // Note: actual namespace depends on the project name.
                 }
             }
 
-            return temp1;
+            int result = temp1;
+            return result;
 
         }
 
