@@ -9,7 +9,7 @@ namespace ComputingTest1 // Note: actual namespace depends on the project name.
         {
             double num = double.Parse(Console.ReadLine());
             Console.WriteLine(IntDivide(num));
-
+            
         }
 
         public static string IntDivide(double num)
